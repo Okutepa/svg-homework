@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Reload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242.33 920.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 32px;
+      }
+
+      .cls-2 {
+        fill: #bab9b9;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect id="Background" class="cls-2" width="1242.33" height="920.29" rx="123.86" ry="123.86"/>
+  <path id="circle" class="cls-1" d="M676,88.36c205.33,0,371.78,166.45,371.78,371.78s-166.45,371.78-371.78,371.78-371.78-166.45-371.78-371.78"/>
+  <g id="edge-angle">
+    <path class="cls-3" d="M351.98,308.92c-5.35-14.64-17.91-16.85-27.92-4.89l-111.32,132.94c-10.01,11.95-5.63,23.94,9.72,26.63l170.79,29.93c15.36,2.69,23.55-7.09,18.2-21.73l-59.47-162.88Z"/>
+  </g>
+</svg>

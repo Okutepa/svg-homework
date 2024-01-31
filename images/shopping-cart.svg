@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896.97 875.07">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        fill: #aeaeed;
+      }
+    </style>
+  </defs>
+  <g id="icon">
+    <g id="Shopping-cart">
+      <g id="cart">
+        <polyline class="cls-3" points="605.1 361.88 537.05 361.88 480.63 553.57 269.41 553.57"/>
+        <polyline class="cls-3" points="524.05 400.61 227.92 400.61 269.41 523.7 489.42 523.7"/>
+      </g>
+      <g id="wheels">
+        <circle class="cls-3" cx="280.43" cy="594.67" r="23.24"/>
+        <circle class="cls-3" cx="469.5" cy="594.67" r="23.24"/>
+      </g>
+      <path id="background" class="cls-1" d="M666.33,84.38H124.36C55.68,84.38,0,140.06,0,208.75v541.96c0,68.68,55.68,124.36,124.36,124.36h541.96c68.68,0,124.36-55.68,124.36-124.36V208.75c0-68.68-55.68-124.36-124.36-124.36ZM404.51,786.37c-164.84,0-298.47-133.63-298.47-298.47S239.67,189.42,404.51,189.42s298.47,133.63,298.47,298.47-133.63,298.47-298.47,298.47Z"/>
+    </g>
+    <circle id="items-shape" class="cls-2" cx="769.99" cy="126.98" r="126.98"/>
+    <g id="num-items">
+      <path class="cls-1" d="M740.63,97.88h-.21l-11.98,6.47-1.8-7.1,15.05-8.06h7.95v68.9h-9.01v-60.21Z"/>
+      <path class="cls-1" d="M803.59,158.09v-18.76h-32.01v-6.15l30.74-43.99h10.07v42.82h9.65v7.31h-9.65v18.76h-8.8ZM803.59,132.02v-23c0-3.6.11-7.21.32-10.81h-.32c-2.12,4.03-3.82,7-5.72,10.18l-16.85,23.43v.21h22.58Z"/>
+    </g>
+  </g>
+</svg>
