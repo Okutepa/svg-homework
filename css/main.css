@@ -1,0 +1,98 @@
+
+.svg-container {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px; 
+}
+
+/* Reload Icon */
+
+#edge-angle {
+    fill: white;
+}
+
+#circle  {
+    stroke: white;
+}
+
+#Background:hover {
+    fill: black;
+}
+
+#Reload-icon:hover #circle,
+#Reload-icon:hover #edge-angle {
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition: transform 0.5s ease; 
+}
+
+#Reload-icon:hover #circle,
+#Reload-icon:hover #edge-angle {
+    animation: reloadanimation 1s infinite linear; 
+}
+
+@keyframes reloadanimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* X logo  */
+
+#back:hover {
+    fill: rgb(255, 4, 4);
+}
+
+#x-sign {
+    fill: rgb(38, 255, 0);
+}
+
+#x-sign:hover {
+    fill: purple;
+    transition: all 0.5s ease;
+}
+
+#x-sign:hover {
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+/* wine time */
+
+#content:hover {
+    fill: rgb(255, 0, 0); /* Color change on hover */
+    animation: shadowAnimation 2s linear infinite; 
+}
+
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.9); 
+    }
+    50% {
+        box-shadow: 0 0 40px 10px rgba(255, 0, 0, 0.7); 
+    }
+    100% {
+        box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.9); 
+    }
+}
+
+
+
+/* #content:hover {
+    fill: rgb(255, 0, 0); /* Color change on hover 
+} */
+
+
