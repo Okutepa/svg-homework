@@ -73,22 +73,11 @@
 /* wine time */
 
 #content:hover {
-    fill: rgb(255, 0, 0); /* Color change on hover */
-    animation: shadowAnimation 2s linear infinite; 
+    fill: rgb(255, 0, 0); 
+    animation: moveUpDown 2s ease-in-out infinite; 
 }
 
-@keyframes shadowAnimation {
-    0% {
-        box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.9); 
-    }
-    50% {
-        box-shadow: 0 0 40px 10px rgba(255, 0, 0, 0.7); 
-    }
-    100% {
-        box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.9); 
-    }
-}
-
+/* Sign In Icon */
 
 #text {
     opacity: 0;
@@ -97,23 +86,17 @@
 
 @keyframes fadeIn {
     to {
-        opacity: 1; /* End with full opacity */
+        opacity: 1; 
     }
 }
 
 #background {
     transform-origin: center;
-    animation: heartbeat 1s infinite; /* Heartbeat animation */
+    animation: heartbeat 1s infinite; 
 }
 
 #container:hover #background {
-    animation: heartbeat-hover 1s infinite; /* Adjusted heartbeat for hover */
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1; /* End with full opacity */
-    }
+    animation: heartbeat-hover 1s infinite; 
 }
 
 @keyframes heartbeat {
@@ -125,17 +108,31 @@
     }
 }
 
-@keyframes heartbeat-hover {
-    0%, 100% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1);
-    }
+
+/* Zima Logo */
+
+#elipse {
+    fill: green
 }
 
-/* #content:hover {
-    fill: rgb(255, 0, 0); /* Color change on hover 
-} */
+#zima-text:hover {
+    fill: red;
+    transition: all 1s ease;
+    animation: moveLeftAndRight 8s linear infinite;
+}
 
-
+  
+@keyframes moveLeftAndRight {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(20px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(-20px);
+    }
+  }
